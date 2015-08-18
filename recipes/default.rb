@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: chef-jepsen
+# Cookbook Name:: jepsen
 # Recipe:: default
 #
 # Copyright (C) 2015 Justin Alan Ryan
@@ -16,3 +16,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+include_recipe 'jepsen::install'
+
