@@ -1,4 +1,4 @@
-# chef-jepsen-cookbook
+# jepsen-cookbook
 
 TODO: Enter the cookbook description here.
 
@@ -16,7 +16,7 @@ TODO: List your supported platforms.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['chef-jepsen']['bacon']</tt></td>
+    <td><tt>['jepsen']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -25,14 +25,14 @@ TODO: List your supported platforms.
 
 ## Usage
 
-### chef-jepsen::default
+### jepsen::default
 
-Include `chef-jepsen` in your node's `run_list`:
+Include `jepsen` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[chef-jepsen::default]"
+    "recipe[jepsen::default]"
   ]
 }
 ```
